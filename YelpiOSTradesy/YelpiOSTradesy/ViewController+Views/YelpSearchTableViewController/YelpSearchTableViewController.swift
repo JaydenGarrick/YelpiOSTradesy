@@ -39,7 +39,6 @@ final class YelpSearchTableViewController: UITableViewController {
         searchController.searchBar.placeholder = "Search Businesses"
         searchController.searchBar.delegate = self
         self.navigationItem.searchController = searchController
-        navigationController?.modalPresentationStyle = .fullScreen
         
         // Presenter
         presenter = YelpSearchPresenter(self)

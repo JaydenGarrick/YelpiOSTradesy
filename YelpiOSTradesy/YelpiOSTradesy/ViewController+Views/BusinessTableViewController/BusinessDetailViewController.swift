@@ -24,7 +24,6 @@ class BusinessDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        modalPresentationStyle = .fullScreen
         if let business = business {
             setupView(with: business)
         }

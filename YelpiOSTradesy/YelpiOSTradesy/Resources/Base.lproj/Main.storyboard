@@ -10,7 +10,7 @@
         <!--Yelp Business Search-->
         <scene sceneID="AsV-2d-aXq">
             <objects>
-                <tableViewController id="4rH-u1-5Oq" customClass="YelpSearchTableViewController" customModule="YelpiOSTradesy" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController modalTransitionStyle="crossDissolve" id="4rH-u1-5Oq" customClass="YelpSearchTableViewController" customModule="YelpiOSTradesy" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="urB-kf-I4w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,12 +34,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3t-xL-9Nd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="222"/>
+            <point key="canvasLocation" x="704" y="222"/>
         </scene>
         <!--Business Detail View Controller-->
         <scene sceneID="nMV-cW-Tz7">
             <objects>
-                <viewController storyboardIdentifier="BusinessDetailViewController" id="4W8-yl-oYl" customClass="BusinessDetailViewController" customModule="YelpiOSTradesy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BusinessDetailViewController" modalTransitionStyle="crossDissolve" id="4W8-yl-oYl" customClass="BusinessDetailViewController" customModule="YelpiOSTradesy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8vE-RR-Xfq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,11 +53,16 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vIc-FT-oH7">
                                             <rect key="frame" x="20.5" y="149.5" width="373" height="373"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C7a-gR-pHF">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C7a-gR-pHF">
                                                     <rect key="frame" x="0.0" y="0.0" width="373" height="250"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="XdI-Ax-j6Q"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="8"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(address label)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxq-he-Mj1">
                                                     <rect key="frame" x="8" y="258" width="357" height="107"/>
@@ -108,12 +113,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGO-sR-6gE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489" y="232"/>
+            <point key="canvasLocation" x="1523" y="232"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZUk-ZA-wVo">
             <objects>
-                <navigationController id="tZe-bU-40G" sceneMemberID="viewController">
+                <navigationController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="tZe-bU-40G" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aDQ-i6-Zet">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
