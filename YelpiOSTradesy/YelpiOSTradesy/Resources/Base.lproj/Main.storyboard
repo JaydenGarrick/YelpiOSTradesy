@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tZe-bU-40G">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Yelp Business Search-->
+        <scene sceneID="AsV-2d-aXq">
+            <objects>
+                <tableViewController id="4rH-u1-5Oq" customClass="YelpSearchTableViewController" customModule="YelpiOSTradesy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="urB-kf-I4w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dca-uB-CLg">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dca-uB-CLg" id="YgZ-eJ-8M9">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4rH-u1-5Oq" id="Xgj-By-gAj"/>
+                            <outlet property="delegate" destination="4rH-u1-5Oq" id="7D0-jk-670"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Yelp Business Search" id="RMC-ZN-WYw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C3t-xL-9Nd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="222"/>
+        </scene>
+        <!--Business Detail View Controller-->
+        <scene sceneID="nMV-cW-Tz7">
+            <objects>
+                <viewController storyboardIdentifier="BusinessDetailViewController" id="4W8-yl-oYl" customClass="BusinessDetailViewController" customModule="YelpiOSTradesy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8vE-RR-Xfq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeS-Z4-WYo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jFb-qr-sDZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vIc-FT-oH7">
+                                            <rect key="frame" x="20.5" y="149.5" width="373" height="373"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C7a-gR-pHF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="373" height="250"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="250" id="XdI-Ax-j6Q"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(address label)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxq-he-Mj1">
+                                                    <rect key="frame" x="8" y="258" width="357" height="107"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstItem="nxq-he-Mj1" firstAttribute="leading" secondItem="vIc-FT-oH7" secondAttribute="leading" constant="8" id="1JE-n3-YeL"/>
+                                                <constraint firstAttribute="trailing" secondItem="nxq-he-Mj1" secondAttribute="trailing" constant="8" id="IYy-Om-Xgl"/>
+                                                <constraint firstAttribute="trailing" secondItem="C7a-gR-pHF" secondAttribute="trailing" id="JPU-2w-EYL"/>
+                                                <constraint firstItem="C7a-gR-pHF" firstAttribute="leading" secondItem="vIc-FT-oH7" secondAttribute="leading" id="LdQ-X8-d2q"/>
+                                                <constraint firstAttribute="width" secondItem="vIc-FT-oH7" secondAttribute="height" multiplier="1:1" id="LwC-D8-5sX"/>
+                                                <constraint firstAttribute="bottom" secondItem="nxq-he-Mj1" secondAttribute="bottom" constant="8" id="W7j-lO-EZ8"/>
+                                                <constraint firstItem="C7a-gR-pHF" firstAttribute="top" secondItem="vIc-FT-oH7" secondAttribute="top" id="giM-p3-7QC"/>
+                                                <constraint firstItem="nxq-he-Mj1" firstAttribute="top" secondItem="C7a-gR-pHF" secondAttribute="bottom" constant="8" id="k15-2n-KQD"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="vIc-FT-oH7" firstAttribute="centerX" secondItem="jFb-qr-sDZ" secondAttribute="centerX" id="7Bn-nQ-4Ud"/>
+                                        <constraint firstItem="vIc-FT-oH7" firstAttribute="centerY" secondItem="jFb-qr-sDZ" secondAttribute="centerY" multiplier="0.75" id="8fr-ru-1IR"/>
+                                        <constraint firstItem="vIc-FT-oH7" firstAttribute="width" secondItem="jFb-qr-sDZ" secondAttribute="width" multiplier="0.9" id="lAT-kQ-Hx0"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="MeS-Z4-WYo" secondAttribute="bottom" id="B5U-Lx-3Dt"/>
+                            <constraint firstItem="KAx-9y-8ZW" firstAttribute="trailing" secondItem="MeS-Z4-WYo" secondAttribute="trailing" id="MIf-tw-oA0"/>
+                            <constraint firstItem="MeS-Z4-WYo" firstAttribute="top" secondItem="8vE-RR-Xfq" secondAttribute="top" id="Uql-eh-wql"/>
+                            <constraint firstItem="MeS-Z4-WYo" firstAttribute="leading" secondItem="KAx-9y-8ZW" secondAttribute="leading" id="eqi-Wh-IPe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KAx-9y-8ZW"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="C7a-gR-pHF" id="EQi-Yf-yll"/>
+                        <outlet property="label" destination="nxq-he-Mj1" id="z2l-Mm-lLZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGO-sR-6gE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1489" y="232"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZUk-ZA-wVo">
+            <objects>
+                <navigationController id="tZe-bU-40G" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aDQ-i6-Zet">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4rH-u1-5Oq" kind="relationship" relationship="rootViewController" id="emq-UF-a2i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3p9-bp-Wxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249" y="222"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,881 @@
+{
+    "businesses": [
+        {
+            "id": "To-FQ3IBg8yI9MHp3VCRig",
+            "alias": "publik-coffee-roasters-salt-lake-city-5",
+            "name": "Publik Coffee Roasters",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/B6Q_7iXSvg3PDST7qExm1w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/publik-coffee-roasters-salt-lake-city-5?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 344,
+            "categories": [
+                {
+                    "alias": "venues",
+                    "title": "Venues & Event Spaces"
+                },
+                {
+                    "alias": "coffeeroasteries",
+                    "title": "Coffee Roasteries"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.747847,
+                "longitude": -111.89351
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "city": "",
+                "zip_code": "",
+                "country": "",
+                "state": "",
+                "display_address": []
+            },
+            "phone": "+18013553161",
+            "display_phone": "(801) 355-3161",
+            "distance": 1452.994074948043
+        },
+        {
+            "id": "r50ORqI7tAkl5qfqjoB2UQ",
+            "alias": "publik-coffee-roasters-salt-lake-city-6",
+            "name": "Publik Coffee Roasters",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tRrCm6SDujHtgMt2HcvlYQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/publik-coffee-roasters-salt-lake-city-6?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 80,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.77266,
+                "longitude": -111.87404
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "502 E 3rd Ave N",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84103",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "502 E 3rd Ave N",
+                    "Salt Lake City, UT 84103"
+                ]
+            },
+            "phone": "+13852294836",
+            "display_phone": "(385) 229-4836",
+            "distance": 1941.0128279482633
+        },
+        {
+            "id": "b0886gWaLo4AQkL-piST0A",
+            "alias": "publik-kitchen-salt-lake-city",
+            "name": "Publik Kitchen",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/RudMnwPfm0T_p4pWCKjl3w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/publik-kitchen-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 174,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.75001,
+                "longitude": -111.86424
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "931 E 900th S",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84105",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "931 E 900th S",
+                    "Salt Lake City, UT 84105"
+                ]
+            },
+            "phone": "+13852294205",
+            "display_phone": "(385) 229-4205",
+            "distance": 2552.303041618457
+        },
+        {
+            "id": "rAO2dREvn9uZ_lPjBQPCow",
+            "alias": "publik-eds-salt-lake-city-2",
+            "name": "Publik Ed's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DVwBLgcHmVkHqUc48M0GsA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/publik-eds-salt-lake-city-2?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 40.76465,
+                "longitude": -111.85254
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "210 University St E",
+                "address2": "",
+                "address3": null,
+                "city": "Salt Lake City",
+                "zip_code": "84102",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "210 University St E",
+                    "Salt Lake City, UT 84102"
+                ]
+            },
+            "phone": "+13855491928",
+            "display_phone": "(385) 549-1928",
+            "distance": 3267.361799699791
+        },
+        {
+            "id": "HfITLrH58l_8s3OkYkSCbQ",
+            "alias": "blue-copper-coffee-room-salt-lake-city",
+            "name": "Blue Copper Coffee Room",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lQQawy-mGI4x9b8qXVccYg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/blue-copper-coffee-room-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 228,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.7497556,
+                "longitude": -111.8961534
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "179 W 900th S",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84101",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "179 W 900th S",
+                    "Salt Lake City, UT 84101"
+                ]
+            },
+            "phone": "+13852227046",
+            "display_phone": "(385) 222-7046",
+            "distance": 1299.1793365792523
+        },
+        {
+            "id": "Ry6XglfxGBX0sdrJWnjRqQ",
+            "alias": "jack-mormon-coffee-salt-lake-city",
+            "name": "Jack Mormon Coffee",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gzSnfFnsg8nNEb7uXxogKg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/jack-mormon-coffee-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 170,
+            "categories": [
+                {
+                    "alias": "coffeeroasteries",
+                    "title": "Coffee Roasteries"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.7714,
+                "longitude": -111.87732
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "82 E St",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84103",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "82 E St",
+                    "Salt Lake City, UT 84103"
+                ]
+            },
+            "phone": "+18013592979",
+            "display_phone": "(801) 359-2979",
+            "distance": 1656.5962152291295
+        },
+        {
+            "id": "5cc2pVsggdnNpiDUaz27Ag",
+            "alias": "the-peoples-coffee-salt-lake-city",
+            "name": "The People's Coffee",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/8v5Nd1Wb2B61N63qV4vUJQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-peoples-coffee-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 113,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "bagels",
+                    "title": "Bagels"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.7629606792444,
+                "longitude": -111.884637214243
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "221 E Broadway 300 S",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84111",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "221 E Broadway 300 S",
+                    "Salt Lake City, UT 84111"
+                ]
+            },
+            "phone": "+18019068761",
+            "display_phone": "(801) 906-8761",
+            "distance": 591.6495039637139
+        },
+        {
+            "id": "RWHlc4R05ifkem1slzM-gg",
+            "alias": "mestizo-coffeehouse-salt-lake-city",
+            "name": "Mestizo Coffeehouse",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/2uO6BvLnfO2yr0434Em6lw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mestizo-coffeehouse-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 102,
+            "categories": [
+                {
+                    "alias": "galleries",
+                    "title": "Art Galleries"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.7712,
+                "longitude": -111.90863
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "631 W North Temple",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84116",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "631 W North Temple",
+                    "Salt Lake City, UT 84116"
+                ]
+            },
+            "phone": "+18015960500",
+            "display_phone": "(801) 596-0500",
+            "distance": 1873.9759547167437
+        },
+        {
+            "id": "dzlgzDB-H4adIJnjdV3FfQ",
+            "alias": "the-bagel-project-salt-lake-city",
+            "name": "The Bagel Project",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/IJZRB35d2FK_ckYT92bTOw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-bagel-project-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 257,
+            "categories": [
+                {
+                    "alias": "bagels",
+                    "title": "Bagels"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.752173,
+                "longitude": -111.876422
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "779 S 500th E",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84102",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "779 S 500th E",
+                    "Salt Lake City, UT 84102"
+                ]
+            },
+            "phone": "+18019060698",
+            "display_phone": "(801) 906-0698",
+            "distance": 1559.8051231003328
+        },
+        {
+            "id": "hDC1kSaVVrHLh282JgpXfA",
+            "alias": "coffee-noir-salt-lake-city",
+            "name": "Coffee Noir",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WVQcR51yeUXv_JUjfCGJtw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/coffee-noir-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 77,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.76523,
+                "longitude": -111.86117
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1035 E 200th S",
+                "address2": null,
+                "address3": null,
+                "city": "Salt Lake City",
+                "zip_code": "84102",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "1035 E 200th S",
+                    "Salt Lake City, UT 84102"
+                ]
+            },
+            "phone": "+18015321888",
+            "display_phone": "(801) 532-1888",
+            "distance": 2558.2968536477747
+        },
+        {
+            "id": "aSBsAawEJMebT8F4oRTKYw",
+            "alias": "hsl-salt-lake-city",
+            "name": "HSL",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ohy5VRuQzXhKLYmLBYkBlw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/hsl-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 508,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.76481,
+                "longitude": -111.878731
+            },
+            "transactions": [
+                "delivery",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "418 E 200th S",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84111",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "418 E 200th S",
+                    "Salt Lake City, UT 84111"
+                ]
+            },
+            "phone": "+18015399999",
+            "display_phone": "(801) 539-9999",
+            "distance": 1129.76993572625
+        },
+        {
+            "id": "JkFvL5ryckayTTnboC3gBA",
+            "alias": "coffee-garden-salt-lake-city-2",
+            "name": "Coffee Garden",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/BJKaTxGDXv-JUdclq7sGgw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/coffee-garden-salt-lake-city-2?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 264,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 40.74955,
+                "longitude": -111.86578
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "878 E 900th S",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84102",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "878 E 900th S",
+                    "Salt Lake City, UT 84102"
+                ]
+            },
+            "phone": "+18013553425",
+            "display_phone": "(801) 355-3425",
+            "distance": 2471.5101755746578
+        },
+        {
+            "id": "OmlL006KNWg9c-JGKIhEmA",
+            "alias": "pulp-lifestyle-kitchen-downtown-salt-lake-city-2",
+            "name": "Pulp Lifestyle Kitchen-Downtown",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/1nTWJCNtIYcAbmmKitpu-g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pulp-lifestyle-kitchen-downtown-salt-lake-city-2?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 280,
+            "categories": [
+                {
+                    "alias": "juicebars",
+                    "title": "Juice Bars & Smoothies"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.76475,
+                "longitude": -111.88952
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "49 Gallivan Ave",
+                "address2": null,
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84111",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "49 Gallivan Ave",
+                    "Salt Lake City, UT 84111"
+                ]
+            },
+            "phone": "+18014562513",
+            "display_phone": "(801) 456-2513",
+            "distance": 362.23667809064045
+        },
+        {
+            "id": "f8ioYxzksqp2XXKT2O4X0Q",
+            "alias": "tulie-bakery-salt-lake-city",
+            "name": "Tulie Bakery",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ucc-6AYWemNlQL6xBzaUiw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tulie-bakery-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 327,
+            "categories": [
+                {
+                    "alias": "bakeries",
+                    "title": "Bakeries"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.75436,
+                "longitude": -111.86608
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "863 E 700th S",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84102",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "863 E 700th S",
+                    "Salt Lake City, UT 84102"
+                ]
+            },
+            "phone": "+18018839741",
+            "display_phone": "(801) 883-9741",
+            "distance": 2221.6369967802893
+        },
+        {
+            "id": "eK5ftIWex1AIHNFPkzbm-w",
+            "alias": "kings-peak-coffee-roasters-salt-lake-city",
+            "name": "Kings Peak Coffee Roasters",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/9Ct3IVq2rXnk4pqEljaJog/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kings-peak-coffee-roasters-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 19,
+            "categories": [
+                {
+                    "alias": "coffeeroasteries",
+                    "title": "Coffee Roasteries"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 40.76011,
+                "longitude": -111.91143
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "412 S 700 W",
+                "address2": null,
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84104",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "412 S 700 W",
+                    "Salt Lake City, UT 84104"
+                ]
+            },
+            "phone": "+13852671890",
+            "display_phone": "(385) 267-1890",
+            "distance": 1716.2719139400265
+        },
+        {
+            "id": "-KAWVoEJp-k-laCO2GaHfw",
+            "alias": "straw-market-salt-lake-city",
+            "name": "Straw Market",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/QFQxTyXNDOSneJVxVC2TKQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/straw-market-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 408,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "bakeries",
+                    "title": "Bakeries"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.7738507945127,
+                "longitude": -111.877743431272
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "390 4th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84103",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "390 4th Ave",
+                    "Salt Lake City, UT 84103"
+                ]
+            },
+            "phone": "+18019354420",
+            "display_phone": "(801) 935-4420",
+            "distance": 1834.9997492207328
+        },
+        {
+            "id": "BX_DS9z9Txb13NFnd-KDeA",
+            "alias": "campos-coffee-roastery-and-kitchen-salt-lake-city",
+            "name": "Campos Coffee Roastery & Kitchen",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/qSTm0F0y-a8bN870U7k8yQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/campos-coffee-roastery-and-kitchen-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 273,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.76411,
+                "longitude": -111.88671
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "228 Edison St",
+                "address2": null,
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84111",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "228 Edison St",
+                    "Salt Lake City, UT 84111"
+                ]
+            },
+            "phone": "+18019531512",
+            "display_phone": "(801) 953-1512",
+            "distance": 522.8370558762965
+        },
+        {
+            "id": "crrC5BuvlQrSSaslXJ2NSw",
+            "alias": "pig-and-a-jelly-jar-salt-lake-city",
+            "name": "Pig & a Jelly Jar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HHgiDIDXG4hAVckQSYcQRA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pig-and-a-jelly-jar-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 1846,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "comfortfood",
+                    "title": "Comfort Food"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.750232,
+                "longitude": -111.879221
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "401 E 900 S",
+                "address2": "Ste A",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84111",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "401 E 900 S",
+                    "Ste A",
+                    "Salt Lake City, UT 84111"
+                ]
+            },
+            "phone": "+13852027366",
+            "display_phone": "(385) 202-7366",
+            "distance": 1538.6841688619015
+        },
+        {
+            "id": "aRU0xSKMZT6-_xkuK17w4A",
+            "alias": "bambara-salt-lake-city",
+            "name": "Bambara",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DvLCWz7dY4FFWAN6vbEWdw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bambara-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 551,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.765039,
+                "longitude": -111.891292
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "202 S Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Salt Lake City",
+                "zip_code": "84101",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "202 S Main St",
+                    "Salt Lake City, UT 84101"
+                ]
+            },
+            "phone": "+18013635454",
+            "display_phone": "(801) 363-5454",
+            "distance": 474.03533738810796
+        },
+        {
+            "id": "ZUrN6VqJOMGt38_kh4K9TA",
+            "alias": "amour-café-salt-lake-city",
+            "name": "Amour Café",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/z1R8Pycyl-FVjNxjCl4iiw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/amour-caf%C3%A9-salt-lake-city?adjust_creative=0lWtt5EMEFI4NlpNTFuJQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0lWtt5EMEFI4NlpNTFuJQA",
+            "review_count": 86,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.740898,
+                "longitude": -111.876471
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1329 S 500th E",
+                "address2": "",
+                "address3": null,
+                "city": "Salt Lake City",
+                "zip_code": "84105",
+                "country": "US",
+                "state": "UT",
+                "display_address": [
+                    "1329 S 500th E",
+                    "Salt Lake City, UT 84105"
+                ]
+            },
+            "phone": "+18014672947",
+            "display_phone": "(801) 467-2947",
+            "distance": 2529.4114071931876
+        }
+    ],
+    "total": 24,
+    "region": {
+        "center": {
+            "longitude": -111.891045,
+            "latitude": 40.76078
+        }
+    }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nPJ-s6-Voe" customClass="BusinessTableViewCell" customModule="YelpiOSTradesy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="670" height="754"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CRq-fJ-xtx">
+                    <rect key="frame" x="0.0" y="393" width="670" height="319"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(name label)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-e9-1gI">
+                            <rect key="frame" x="285" y="0.0" width="100" height="20.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(distance label)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGr-Bu-tCl">
+                            <rect key="frame" x="276" y="28.5" width="118" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfD-9r-7e6">
+                            <rect key="frame" x="215" y="57" width="240" height="50"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(rating label)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0r-L8-U9E">
+                            <rect key="frame" x="286.5" y="115" width="97" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig7-zw-x8Z">
+                            <rect key="frame" x="167.5" y="143.5" width="335" height="175.5"/>
+                            <state key="normal" title=" Call" image="phone.fill" catalog="system">
+                                <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="callButtonTapped:" destination="nPJ-s6-Voe" eventType="touchUpInside" id="5gJ-6R-TyC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ig7-zw-x8Z" firstAttribute="width" secondItem="CRq-fJ-xtx" secondAttribute="width" multiplier="0.5" id="gae-8G-cEY"/>
+                    </constraints>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-jY-cC7">
+                    <rect key="frame" x="0.0" y="9" width="670" height="374.5"/>
+                    <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gbH-jY-cC7" firstAttribute="top" secondItem="nPJ-s6-Voe" secondAttribute="top" constant="8" id="5Z1-09-gRT"/>
+                <constraint firstItem="TAl-t9-irw" firstAttribute="trailing" secondItem="CRq-fJ-xtx" secondAttribute="trailing" id="I1t-cg-Fkh"/>
+                <constraint firstItem="TAl-t9-irw" firstAttribute="bottom" secondItem="CRq-fJ-xtx" secondAttribute="bottom" constant="8" id="JNx-Ec-2Sp"/>
+                <constraint firstItem="gbH-jY-cC7" firstAttribute="leading" secondItem="TAl-t9-irw" secondAttribute="leading" id="fE3-aN-l64"/>
+                <constraint firstItem="gbH-jY-cC7" firstAttribute="height" secondItem="nPJ-s6-Voe" secondAttribute="height" multiplier="0.5" id="gRF-Sm-Xsh"/>
+                <constraint firstItem="CRq-fJ-xtx" firstAttribute="top" secondItem="gbH-jY-cC7" secondAttribute="bottom" constant="8" id="kLK-4Z-Zfn"/>
+                <constraint firstItem="TAl-t9-irw" firstAttribute="trailing" secondItem="gbH-jY-cC7" secondAttribute="trailing" id="lds-hL-0cJ"/>
+                <constraint firstItem="CRq-fJ-xtx" firstAttribute="leading" secondItem="TAl-t9-irw" secondAttribute="leading" id="qz9-yO-Yp2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="TAl-t9-irw"/>
+            <connections>
+                <outlet property="businessImageView" destination="gbH-jY-cC7" id="FLg-nO-jLG"/>
+                <outlet property="callButton" destination="Ig7-zw-x8Z" id="HMm-5O-VQG"/>
+                <outlet property="nameLabel" destination="cE8-e9-1gI" id="Kml-aV-Mod"/>
+                <outlet property="priceLabel" destination="cGr-Bu-tCl" id="mtg-Rj-irW"/>
+                <outlet property="ratingLabel" destination="z0r-L8-U9E" id="hqm-Ae-3Fn"/>
+            </connections>
+            <point key="canvasLocation" x="314.49275362318843" y="104.46428571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="phone.fill" catalog="system" width="64" height="56"/>
+        <image name="photo.fill" catalog="system" width="64" height="46"/>
+    </resources>
+</document>
