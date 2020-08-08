@@ -46,6 +46,10 @@ extension YelpSearchPresenterTests {
     class MockView: BusinessResultable {
         var reloadWasCalled: Bool = false
         var errorsLogged: [String: Bool] = [:]
+        
+        func navigateToDetailViewController(with business: Business) {
+            // TODO: - Add Tests for this last minute addition
+        }
 
         func reload() {
             reloadWasCalled = true
